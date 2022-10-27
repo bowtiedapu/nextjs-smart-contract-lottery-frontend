@@ -1,3 +1,17 @@
+# NextJS Smart Contract Lottery Front End
+
+## How To: Build, Deploy, Run
+
+1. To create your own NextJS project, just run `yarn create next-app .`
+2. `yarn run dev` to start your own local server
+3. `yarn add --dev prettier`
+
+## How This Works
+
+- "pages" are essentially your routes to different pages. For example, if you create helloworld.js under `pages/`, and go to `localhost:3000/helloworld`, that will render whatever code you have written in `pages/`
+- the `import` keyword works with our front end, but `require` does not. this is where the differences between back end nodejs vs front end nextjs start to arise.
+- `_app.js` is your entry point for everything in your NextJS app. All the other routes mentioned above are referred to as `components`. All pages get wrapped into the component section of `_app.js`
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
