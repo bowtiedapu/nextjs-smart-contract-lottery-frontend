@@ -1,7 +1,7 @@
 import Head from "next/head"
 import Image from "next/image"
 import styles from "../styles/Home.module.css"
-import Header from "../components/Header"
+import ManualHeader from "../components/ManualHeader"
 
 export default function Home() {
     return (
@@ -13,7 +13,7 @@ export default function Home() {
             </Head>
 
             {/* This imports our header from Header.jsx */}
-            <Header></Header>
+            <ManualHeader></ManualHeader>
             <h1> Henlo </h1>
         </div>
     )

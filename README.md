@@ -5,6 +5,8 @@
 1. To create your own NextJS project, just run `yarn create next-app .`
 2. `yarn run dev` to start your own local server
 3. `yarn add --dev prettier`
+4. `yarn add react react-dom moralis react-moralis` Note that we did not use `--dev` here, since we need this for prod. Whereas in #3, we use it since `prettier` is for dev only, and not necessarily required for prod
+5. `yarn add moralis-v1`
 
 ## How This Works
 
