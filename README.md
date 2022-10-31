@@ -7,6 +7,8 @@
 3. `yarn add --dev prettier`
 4. `yarn add react react-dom moralis react-moralis` Note that we did not use `--dev` here, since we need this for prod. Whereas in #3, we use it since `prettier` is for dev only, and not necessarily required for prod
 5. `yarn add moralis-v1`
+6. `yarn add web3uikit`
+7. `yarn add @web3auth/web3auth magic-sdk@7.0.0`
 
 ## How This Works
 
