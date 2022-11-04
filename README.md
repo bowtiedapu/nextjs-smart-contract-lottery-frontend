@@ -9,6 +9,7 @@
 5. `yarn add moralis-v1`
 6. `yarn add web3uikit`
 7. `yarn add @web3auth/web3auth magic-sdk@7.0.0`
+8. To start up your local blockchain, check out the backend version of the project, and start it up using `yarn hardhat node`
 
 ## How This Works
 
